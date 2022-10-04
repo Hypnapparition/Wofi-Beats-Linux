@@ -43,6 +43,12 @@ radios = {
 "Black Metal":{
 "notification": "Black Metal ☕️🎶",
 "URL":"http://trueblackmetalradio.com:666/radio"},
+"Vaporwave":{
+"notification": "Vaporwave ☕️🎶",
+"URL":"http://79.120.11.40:8000/vapor.ogg"},
+"Chiptune":{
+"notification": "Chiptune ☕️🎶",
+"URL":"http://79.120.11.40:8000/chiptune.ogg"},
 "60s":{
 "notification": "60s ☕️🎶",
 "URL":"http://64.40.99.76:8000/stream/1/"},
