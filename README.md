@@ -41,7 +41,7 @@ If you want your launchers to find it, you may want to move it to your bin direc
 
 
 ```
-$ mv rofi-beats-linux.py ~/.local/bin/
+$ mv wofi-beats-linux.py ~/.local/bin/
 ```
 
 
