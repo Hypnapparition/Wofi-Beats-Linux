@@ -1,4 +1,4 @@
-# Rofi-Beats-Linux
+# Wofi-Beats-Linux
 A Wofi/Rofi menu for playing radio stations on Linux with support of adding a custom stations.
 
 ## Dependencies
