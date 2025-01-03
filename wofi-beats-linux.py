@@ -52,10 +52,10 @@ with open(script_dir / 'config' / 'launcher_config.txt', 'r') as f:
 # This output is only relevant if it is captured by other programs. 
 
 output_file_dir = script_dir
-output_file_name = 'rofi-wofi-beats_out.txt'
+output_file_name = 'wofi-beats_out.txt'
 
 # Dinamically add a numerical prefix to the radio stations based on the order
-# they appear in the dictionary above. This is done to respect Carbon-Bl4ck's
+# they appear in the `stations.json`. This is done to respect Carbon-Bl4ck's
 # original format, and to allow users to edit the radio dictionary without
 # needing to maintain the numbers in the station names.
 
