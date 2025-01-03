@@ -18,7 +18,7 @@ $ sudo apt install notify-osd mpv wofi
 For Arch Linux:
 
 ```
-sudo pacman -S otify-osd mpv wofi
+sudo pacman -S notify-osd mpv wofi
 ```
 
 [You can use rofi instead of wofi if you want](#using-rofi-instead-of-wofi)
