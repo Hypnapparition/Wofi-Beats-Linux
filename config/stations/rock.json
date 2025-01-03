@@ -1,34 +1,34 @@
 {
     "Classic Rock": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "classic Rock \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://streaming.live365.com/a06375"
     },
     "Progressive Rock": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "progressive Rock \u2615\ufe0f\ud83c\udfb6",
         "URL": "http://eagle.streemlion.com:4040/stream"
     },
     "Punk": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "punk \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://free.rcast.net/63875"
     },
     "Grunge": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "grunge \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://s8-webradio.rockantenne.de/grunge/stream"
     },
     "Heavy Metal": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "heavy metal \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://stream-164.zeno.fm/av7zrzlnf3huv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhdjd6cnpsbmYzaHV2IiwiaG9zdCI6InN0cmVhbS0xNjQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjJXd3JQMDRRUmlpOEVyNHlPYXZYU1EiLCJpYXQiOjE3MzU5MTE1MzEsImV4cCI6MTczNTkxMTU5MX0.I6bEg7f8PpEdezxgVW1GmICXTNKVItrUVjG4XhQH1f4"
     },
     "Power Metal": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "power metal \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://regiocast.streamabc.net/regc-radiobobpowermetal7971779-mp3-192-4551381?sABC=6777r974%230%232n1145ss782r9p4o8p8s2061r9o8rnr4%23zrqvncynlre&aw_0_1st.playerid=mediaplayer&amsparams=playerid:mediaplayer;skey:1735911796"
     },
     "Metalcore": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "metalcore \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://core-mix.stream.laut.fm/core-mix"
     },
     "Death Metal": {
-        "notification": "wave \u2615\ufe0f\ud83c\udfb6",
+        "notification": "death metal \u2615\ufe0f\ud83c\udfb6",
         "URL": "https://regiocast.streamabc.net/regc-radiobobdeathmetal8709679-mp3-192-6241857?sABC=6777r6o4%230%232n1145ss782r9p4o8p8s2061r9o8rnr4%23zrqvncynlre&aw_0_1st.playerid=mediaplayer&amsparams=playerid:mediaplayer;skey:1735911092"
     }
 }
