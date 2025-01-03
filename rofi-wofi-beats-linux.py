@@ -9,7 +9,7 @@ Created based on Rofi-Beats-Linux by pfitzn (https://github.com/pfitzn/Rofi-Beat
 
 radio stations are put in a separate file and made an installer that allows you to install
 the script with wofi or rofi to choose from,
-install or not the radio stations from Rofi-Beats-Linux by pfitzn, as well as some other stations.
+install or not the radio stations from Rofi-Beats-Linux by pfitzn, as well as other station libraries in json format.
 
 
 """
