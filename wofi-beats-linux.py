@@ -6,18 +6,29 @@ Created on Fri Jan 03 12:19:18 PM 2025
 @author: Hypnapparition
 
 Created based on Rofi-Beats-Linux by pfitzn (https://github.com/pfitzn/Rofi-Beats-Linux).
-
-
 """
-# Import modules. There are all built-in in Python3
 
+# Import modules. There are all built-in in Python3
 import subprocess as s
 from pathlib import Path
 import sys
 import json
 
+# Define path to the stations.json file
+stations_file = Path('./config/stations.json')
+
+# Check if the stations.json file exists
+if not stations_file.exists():
+    print("Stations file not found. Running lib-install.py to install dependencies...")
+    # Run the lib-install.py script
+    s.run(["python3", "./lib-install.py"])
+    # After running lib-install.py, check again if the stations file exists
+    if not stations_file.exists():
+        print("The stations file is still missing. Exiting.")
+        sys.exit(1)
+
 # Get stations from json file
-with open('./config/stations.json') as f:
+with open(stations_file) as f:
     radios = json.load(f)
     print(radios)
 
@@ -83,13 +94,13 @@ except:
 # Clear existing output file if found. This is done so that the file does not
 # get huge after many executions
 print('1')
-s.run(['rm',f"{output_file_dir}/{output_file_name}"])
+s.run(['rm', f"{output_file_dir}/{output_file_name}"])
 print('2')
 # Open player with URL of selected station, send notification, write output to
 # file
 
-with open(f"{output_file_dir}/{output_file_name}",'w') as f:
+with open(f"{output_file_dir}/{output_file_name}", 'w') as f:
     print('3')
-    s.run(["notify-send",f"Playing now: \"{radios[cleanoutput]['notification']}\"","--icon=media-tape"])
+    s.run(["notify-send", f"Playing now: \"{radios[cleanoutput]['notification']}\"", "--icon=media-tape"])
     print('4')
-    s.run(["mpv",f"{url}","--idle=yes", "--volume=60", "--title=\"radio-mpv\"","--input-ipc-server=/tmp/mpvsocket"],stdout=f)
+    s.run(["mpv", f"{url}", "--idle=yes", "--volume=60", "--title=\"radio-mpv\"", "--input-ipc-server=/tmp/mpvsocket"], stdout=f)
